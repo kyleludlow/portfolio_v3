@@ -431,6 +431,14 @@ body {
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
+  @media (max-width: 56.25em) {
+    .reference {
+      width: 100%;
+      padding: 4rem;
+      padding-left: 7rem; } }
+  @media (max-width: 37.5em) {
+    .reference {
+      transform: skewX(0); } }
   .reference__shape {
     width: 15rem;
     height: 15rem;
@@ -441,6 +449,9 @@ body {
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg); }
+    @media (max-width: 37.5em) {
+      .reference__shape {
+        transform: translateX(-3rem) skewX(0); } }
   .reference__img {
     height: 100%;
     transform: scale(1.4);
@@ -448,6 +459,9 @@ body {
     backface-visibility: hidden; }
   .reference__text {
     transform: skewX(12deg); }
+    @media (max-width: 37.5em) {
+      .reference__text {
+        transform: skewX(0); } }
   .reference__caption {
     position: absolute;
     top: 50%;
