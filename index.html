@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="../app/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+        <title>Kyle Ludlow | Full Stack Web Developer</title>
+    </head>
+    <body>
+
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About Me</a></li>
+            <li class="navigation__item"><a href="#section-skills" class="navigation__link"><span>02</span>Top Skills</a></li>
+            <li class="navigation__item"><a href="#section-projects" class="navigation__link"><span>03</span>Projects</a></li>
+            <li class="navigation__item"><a href="#footer" class="navigation__link"><span>04</span>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <header class="header">
+        <div class="header__logo-box">
+          <img src="img/logo-white.png" alt="Logo" class="header__logo">
+        </div>
+
+        <div class="header__text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Kyle Ludlow</span>
+            <span class="heading-primary--sub">Full Stack Web Developer</span>
+          </h1>
+
+          <a href="#section-about" class="btn btn--white btn--animated">More about me</a>
+        </div>
+
+      </header>
+
+      <main>
+
+        <section class="section-about" id="section-about">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+              About me
+            </h2>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-2">
+              <h3 class="heading-tertiary u-margin-bottom-small">Full Stack Web Developer</h3>
+              <p class="paragraph">
+                Portland based engineer specializing in the MERN stack. I love web development because it constantly requires me to learn new things, which is very important for me. I'm not afraid to be pushed outside my comfort zone and always look to contribute to my team.
+              </p>
+              <h3 class="heading-tertiary u-margin-bottom-small">Full time dog dad</h3>
+              <p class="paragraph">
+                I have a 1 year old boxer named Remy that backpacks with me. We are currently exploring as much of Oregon and Washington as possible. I'm also into rock climbing, fly fishing, playing music, and video games.
+              </p>
+
+              <a href="#section-projects" class="btn-text">See projects &rarr;</a>
+            </div>
+            <div class="col-1-of-2">
+              <div class="composition">
+
+                <img srcset="img/about-1.jpg 300w, img/about-1-large.jpg 1000w"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em), 300px"
+                  alt="Photo 1"
+                  class="composition__photo composition__photo--p1"
+                  src="img/about-1-large.jpg" >
+
+                <img srcset="img/about-2.jpg 300w, img/about-2-large.jpg 1000w"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em), 300px"
+                  alt="Photo 2"
+                  class="composition__photo composition__photo--p2"
+                  src="img/about-2-large.jpg" >
+
+                <img srcset="img/about-3.jpg 300w, img/about-3-large.jpg 1000w"
+                  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em), 300px"
+                  alt="Photo 3"
+                  class="composition__photo composition__photo--p3"
+                  src="img/about-3-large.jpg" >
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="section-skills" id="section-skills">
+
+            <div class="row">
+              <div class="col-1-of-4">
+                <div class="skill-box">
+                  <i class="skill-box__icon fab fa-react"></i>
+                  <h3 class="heading-tertiary u-margin-bottom-small">React + Redux</h3>
+                  <p class="skill-box__text">My go-to framework for single page web apps. I love writing clean, ES6+ React code. Redux helps me manage state with ease.</p>
+                </div>
+              </div>
+
+              <div class="col-1-of-4">
+                <div class="skill-box">
+                  <i class="skill-box__icon fab fa-node"></i>
+                  <h3 class="heading-tertiary u-margin-bottom-small">NodeJS</h3>
+                  <p class="skill-box__text">Experienced using ExpressJS, server-side authentication and rendering, and both noSQL and SQL databases.</p>
+                </div>
+              </div>
+
+              <div class="col-1-of-4">
+                <div class="skill-box">
+                  <i class="skill-box__icon fab fa-sass"></i>
+                  <h3 class="heading-tertiary u-margin-bottom-small">Sass</h3>
+                  <p class="skill-box__text">Sass never ceases to amaze me. I love clean file archetecture and it helps me modularize my code to be more DRY and readable.</p>
+                </div>
+              </div>
+
+              <div class="col-1-of-4">
+                <div class="skill-box">
+                  <i class="skill-box__icon fab fa-js"></i>
+                  <h3 class="heading-tertiary u-margin-bottom-small">JavaScript</h3>
+                  <p class="skill-box__text">My favorite and strongest programming language. I use it to build all across the web stack, as well as for mobile and desktop.</p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="section-projects" id="section-projects">
+            <div class="u-center-text u-margin-bottom-big">
+              <h2 class="heading-secondary">
+                Projects
+              </h2>
+            </div>
+
+            <div class="row">
+              <div class="col-1-of-3">
+                <div class="card">
+                  <div class="card__side card__side--front">
+                    <div class="card__picture card__picture--1">
+                      &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--1">Modern Portfolio</span>
+                    </h4>
+                    <div class="card__details">
+                      <ul>
+                        <li>HTML5</li>
+                        <li>Sass</li>
+                        <li>Photoshop</li>
+                        <li>Responsive Design</li>
+                        <li>NPM</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card__side card__side--back card__side--back--1">
+                    <div class="card__cta">
+                      <div class="card__code-box">
+                        <a href="https://github.com/kyleludlow/portfolio_v3" class="btn btn--white">Code</a>
+
+                      </div>
+                      <a href="#" class="btn btn--white">Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1-of-3">
+                <div class="card">
+                  <div class="card__side card__side--front">
+                    <div class="card__picture card__picture--2">
+                      &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--2">Gerald the Raccoon</span>
+                    </h4>
+                    <div class="card__details">
+                      <ul>
+                        <li>HTML5 Canvas</li>
+                        <li>Javascript</li>
+                        <li>Sprite Mapping</li>
+                        <li>Custom Collision Detection</li>
+                        <li>A* Pathfinding Algorithm</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card__side card__side--back card__side--back--2">
+                    <div class="card__cta">
+                      <div class="card__code-box">
+                        <a href="https://github.com/kyleludlow/Gerald_the_Raccoon" class="btn btn--white">Code</a>
+
+                      </div>
+                      <a href="http://kyleludlow.github.io/Gerald_the_Raccoon" class="btn btn--white">Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1-of-3">
+                <div class="card">
+                  <div class="card__side card__side--front">
+                    <div class="card__picture card__picture--3">
+                      &nbsp;
+                    </div>
+                    <h4 class="card__heading">
+                      <span class="card__heading-span card__heading-span--3">Open <br> Mat</span>
+                    </h4>
+                    <div class="card__details">
+                      <ul>
+                        <li>ReactJS</li>
+                        <li>Redux</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                        <li>Sass</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card__side card__side--back card__side--back--3">
+                    <div class="card__cta">
+                      <div class="card__code-box">
+                        <a href="https://github.com/kyleludlow/open-mat" class="btn btn--white">Code</a>
+
+                      </div>
+                      <a href="https://open-mat.herokuapp.com" class="btn btn--white">Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-huge">
+              <a href="https://github.com/kyleludlow/" class="btn btn--green">See more work</a>
+            </div>
+
+          </section>
+
+          <section class="section-references">
+
+            <div class="bg-video">
+              <video class="bg-video__content" autoplay mute loop>
+                <source src="img/video.mp4" type="video/mp4">
+                <source src="img/video.webm" type="video/webm">
+                  Your browser is not supported!
+              </video>
+            </div>
+
+            <div class="u-center-text u-margin-bottom-big">
+              <h2 class="heading-secondary">
+                Recommendations
+              </h2>
+            </div>
+
+            <div class="row">
+              <div class="reference">
+                <figure class="reference__shape">
+                  <img class="reference__img" src="img/jason.jpeg" alt="picture of mentor Jason Humphrey">
+                  <figcaption class="reference__caption">Jason Humphrey</figcaption>
+                </figure>
+                <div class="reference__text">
+                  <h3 class="heading-tertiary u-margin-bottom-small">Principal Software Engineer | Fidelity Investments </h3>
+                  <p class="">I have had the pleasure of mentoring Kyle. During this time I have personally noticed the hard work, creativity, determination and patience that Kyle puts into his work. He is a committed individual who is good at what he does and is happy to put in the effort when it is asked of him. If given the opportunity I would hire Kyle for any of my coding needs. I trust that he will be an excellent addition to any prospecting company in the immediate future. Please feel free to contact me with any questions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="reference">
+                <figure class="reference__shape">
+                  <img class="reference__img" src="img/ben.jpeg" alt="picture of teacher Ben Pardo">
+                  <figcaption class="reference__caption">Ben Pardo</figcaption>
+                </figure>
+                <div class="reference__text">
+                  <h3 class="heading-tertiary u-margin-bottom-small">Educator | Thinkful</h3>
+                  <p class="">
+                    Kyle is a talented developer who is a quick study on new technologies, skills and usability. When working on projects he solves tough problems, continuously improves his writing style, and always communicates clearly with his teammates, even under the pressure of a deadline. He goes above and beyond stated project requirements and puts in the extra time to do the best job possible. He is an asset to whatever organization has him.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-huge">
+              <a href="https://www.linkedin.com/in/kyle-ludlow/" class="btn-text">See more &rarr;</a>
+            </div>
+          </section>
+
+      </main>
+
+      <footer class="footer" id="footer">
+        <div class="footer__logo-box">
+
+          <picture class="footer__logo">
+            <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+            <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" class="footer__logo" alt="Footer logo">
+          </picture>
+
+        </div>
+
+        <div class="u-center-text">
+          <h2 class="heading-secondary heading-secondary--footer">
+            Kyle Ludlow
+          </h2>
+        </div>
+
+        <div class="footer__navigation-box">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item"><a href="https://github.com/kyleludlow" class="footer__link">Github</a></li>
+              <li class="footer__item"><a href="https://www.linkedin.com/in/kyle-ludlow/" class="footer__link">Linkedin</a></li>
+              <li class="footer__item"><a href="https://angel.co/kyle-ludlow" class="footer__link">Angel List</a></li>
+              <li class="footer__item"><a href="https://twitter.com/ky_ludlow" class="footer__link">Twitter</a></li>
+              <li class="footer__item"><a href="mailto:kyleludlow@gmail.com?Subject=You%20are%20hired!" class="footer__link">Email</a></li>
+            </ul>
+          </div>
+        </div>
+
+        </footer>
+
+
+      <!-- <section class="grid-test">
+          <div class="row">
+            <div class="col-1-of-2">
+              Col 1 of 2
+            </div>
+            <div class="col-1-of-2">
+              Col 1 of 2
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-3">
+              Col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+              Col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+              Col 1 of 3
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-3">
+              Col 1 of 3
+            </div>
+            <div class="col-2-of-3">
+              Col 2 of 3
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-4">
+              Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+              Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+              Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+              Col 1 of 4
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-4">
+              Col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+              Col 1 of 4
+            </div>
+            <div class="col-2-of-4">
+              Col 2 of 4
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-1-of-4">
+              Col 1 of 4
+            </div>
+            <div class="col-3-of-4">
+              Col 3 of 4
+            </div>
+          </div>
+        </section> -->
+    </body>
+</html>
