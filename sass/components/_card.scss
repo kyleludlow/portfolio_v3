@@ -151,7 +151,9 @@
     margin-bottom: 8rem;
   }
 
-  @include respond(tab-port) {
+  // @include respond(tab-port)
+  @media (max-width: 56.25em),
+    (hover: none) {
 
     height: auto;
     border-radius: 3px;
