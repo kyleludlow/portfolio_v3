@@ -16,6 +16,7 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   }
+
   // larger image shown only for high density displays that are larger than 600px wide or low density
   // displays that are very large
   @media (min-resolution: 192dpi) and (min-width: 37.5em),
