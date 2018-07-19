@@ -7,7 +7,7 @@ An updated portfolio site made with semantic HTML5, SASS, Photoshop, responsive 
 Sass is my absolute favorite css development tool! It lets me nest selectors for more readable and DRY code. It also lets me create variables for global values like color, font-size, margins, etc to rapidly change a sites look with only 1 character change. With mixins, I'm able to make real functions like a full programming language, which greatly comes in handy for repetitious values such as media query breakpoints and uncollapsing a collapsed div.
 
 variables
-[variables]: https://farm2.staticflickr.com/1810/29631381348_0d91d9c7ce_b.jpg "variable screenshot"
+![variables]: https://farm2.staticflickr.com/1810/29631381348_0d91d9c7ce_b.jpg "variable screenshot"
 
 ## Responsive design
 
